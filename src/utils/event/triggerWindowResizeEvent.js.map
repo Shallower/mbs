@@ -1,0 +1,1 @@
+{"version":3,"file":"triggerWindowResizeEvent.js","sourceRoot":"","sources":["triggerWindowResizeEvent.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,MAAM,UAAU,mBAAmB;IACjC,MAAM,KAAK,GAAG,QAAQ,CAAC,WAAW,CAAC,YAAY,CAAC,CAAC;IACjD,KAAK,CAAC,SAAS,CAAC,QAAQ,EAAE,IAAI,EAAE,IAAI,CAAC,CAAC;IACrC,KAAa,CAAC,SAAS,GAAG,SAAS,CAAC;IACrC,MAAM,CAAC,aAAa,CAAC,KAAK,CAAC,CAAC;AAC9B,CAAC"}
