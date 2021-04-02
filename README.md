@@ -3,7 +3,7 @@
     <img alt="VbenAdmin Logo" width="200" src="/anncwb/vue-vben-admin/raw/main/.github/res/imgs/logo.png">
   </a>
 </p>
-<h2 align="center">Money bag System @0.1</h2>
+<h2 align="center">Money bag System @0.0.1</h2>
 
 **中文** | [English](./README.md)
 

@@ -22,11 +22,11 @@ setupGlobDirectives(app);
 setupErrorHandle(app);
 // Mount when the route is ready
 router.isReady().then(() => {
-    app.mount('#app', true);
+  app.mount('#app', true);
 });
 // The development environment takes effect
 if (isDevMode()) {
-    app.config.performance = true;
-    window.__APP__ = app;
+  app.config.performance = true;
+  window.__APP__ = app;
 }
 //# sourceMappingURL=main.js.map
