@@ -21,16 +21,16 @@
     name: 'App',
     components: { ConfigProvider, AppProvider },
     setup() {
-      // support Multi-language
+      // support Multi-language（多语言版本支持）
       const { antConfigLocale, setLocale } = useLocale();
+      // 设置语言版本（中/英）
       setLocale();
 
-      // Initialize vuex internal system configuration
+      // Initialize vuex internal system configuration（初始化vuex内部系统配置）
       initAppConfigStore();
 
-      // Create a lock screen monitor
+      // Create a lock screen monitor(创建锁屏监视器)
       const lockEvent = useLockPage();
-
       return {
         antConfigLocale,
         lockEvent,

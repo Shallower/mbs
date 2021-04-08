@@ -14,7 +14,7 @@ export const BASE_LOCAL_CACHE_KEY = 'LOCAL__CACHE__KEY__';
 export const BASE_SESSION_CACHE_KEY = 'SESSION__CACHE__KEY__';
 export var CacheTypeEnum;
 (function (CacheTypeEnum) {
-    CacheTypeEnum[CacheTypeEnum["SESSION"] = 0] = "SESSION";
-    CacheTypeEnum[CacheTypeEnum["LOCAL"] = 1] = "LOCAL";
+  CacheTypeEnum[(CacheTypeEnum['SESSION'] = 0)] = 'SESSION';
+  CacheTypeEnum[(CacheTypeEnum['LOCAL'] = 1)] = 'LOCAL';
 })(CacheTypeEnum || (CacheTypeEnum = {}));
 //# sourceMappingURL=cacheEnum.js.map

@@ -12,7 +12,6 @@ Object.keys(modules).forEach((key) => {
   const modList = Array.isArray(mod) ? [...mod] : [mod];
   menuModules.push(...modList);
 });
-console.log(777777, modules, menuModules);
 const reg = /(((https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+(?::\d+)?|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/;
 // ===========================
 // ==========Helper===========
@@ -45,6 +44,20 @@ export async function getCurrentParentPath(currentPath) {
   const allParentPath = await getAllParentPath(menus, currentPath);
   return allParentPath?.[0];
 }
+console.log(
+  777777,
+  modules,
+  Object.keys(modules),
+  menuModules,
+  '静态了路由staticMenus》',
+  staticMenus,
+  '前端角色控制菜单直接取菜单文件getAsyncMenus》',
+  getAsyncMenus(),
+  '获取菜单 树级getMenus》',
+  getMenus(),
+  '获取当前路径的顶级路径getCurrentParentPath》',
+  getCurrentParentPath()
+);
 // 获取1级菜单，删除children
 export async function getShallowMenus() {
   const menus = await getAsyncMenus();

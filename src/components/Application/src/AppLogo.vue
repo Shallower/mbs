@@ -40,15 +40,12 @@
     setup() {
       const { prefixCls } = useDesign('app-logo');
       const { getCollapsedShowTitle } = useMenuSetting();
-
       const { title } = useGlobSetting();
-
       const go = useGo();
-
+      // console.log('777778921>> ', useGlobSetting(), useGo(), useMenuSetting(), useDesign('app'));
       function handleGoHome(): void {
         go(PageEnum.BASE_HOME);
       }
-
       return {
         handleGoHome,
         title,
