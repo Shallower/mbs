@@ -1,6 +1,6 @@
 export function getGlobEnvConfig() {
-    const env = import.meta.env;
-    return env;
+  const env = import.meta.env;
+  return env;
 }
 /**
  * @description: 开发模式
@@ -16,7 +16,7 @@ export const prodMode = 'production';
  * @example:
  */
 export function getEnv() {
-    return import.meta.env.MODE;
+  return import.meta.env.MODE;
 }
 /**
  * @description: 是否是开发模式
@@ -24,7 +24,7 @@ export function getEnv() {
  * @example:
  */
 export function isDevMode() {
-    return import.meta.env.DEV;
+  return import.meta.env.DEV;
 }
 /**
  * @description: 是否是生产模式模式
@@ -32,7 +32,7 @@ export function isDevMode() {
  * @example:
  */
 export function isProdMode() {
-    return import.meta.env.PROD;
+  return import.meta.env.PROD;
 }
 /**
  * @description: 是否开启mock
@@ -40,6 +40,6 @@ export function isProdMode() {
  * @example:
  */
 export function isUseMock() {
-    return import.meta.env.VITE_USE_MOCK === 'true';
+  return import.meta.env.VITE_USE_MOCK === 'true';
 }
 //# sourceMappingURL=env.js.map
